@@ -130,6 +130,14 @@ a {
     background: var(--backdrop-1);
 }
 
+#welcome-note {
+    font-size: 2.1rem;
+    font-weight: 200;
+    font-style: italic;
+    font-family: Courier, monospace;
+    color: var(white);
+}
+
 #projects {
     display: grid;
     background: var(--backdrop-2);
@@ -147,14 +155,6 @@ a {
 
 h1 {
     font-size: 3.4rem;
-}
-
-#welcome-note {
-    font-size: 2.1rem;
-    font-weight: 200;
-    font-style: italic;
-    font-family: Courier, monospace;
-    color: var(--backdrop-3);
 }
 
 @media (min-width: 650px) {
