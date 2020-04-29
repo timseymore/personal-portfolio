@@ -121,6 +121,7 @@ a {
 }
 
 .project-tile {
+    margin: 1rem;
     padding: 5em;
     text-align: center;
     border-style: solid;
@@ -128,7 +129,27 @@ a {
 }
 
 #project-tile-1 {
+    grid-area: "tile1";
+}
+
+#project-tile-2 {
     grid-area: "tile2";
+}
+
+#project-tile-3 {
+    grid-area: "tile3";
+}
+
+#project-tile-4 {
+    grid-area: "tile4";
+}
+
+#project-tile-5 {
+    grid-area: "tile5";
+}
+
+#project-tile-6 {
+    grid-area: "tile6";
 }
 
 #contact-section {
