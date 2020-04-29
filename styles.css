@@ -1,7 +1,8 @@
 :root {
     --backdrop-1: rgb(50, 50, 255);
-    --backdrop-2: rgb(185, 25, 25);
+    --backdrop-2: rgb(75, 75, 75);
     --backdrop-3: rgb(55, 55, 55);
+    --nav-hover: rgb(75, 75, 75);
     --text-color-1: rgb(225, 225, 225);
 }
 
@@ -59,7 +60,6 @@ a {
 
 .nav-list {
     display: flex;
-    margin-right: 2rem;
 }
 
 .nav-link {
@@ -80,7 +80,6 @@ a {
     left: 0;
     width: 100%;
     background: var(--backdrop-3);
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
 }
 
@@ -112,6 +111,7 @@ a {
 #projects {
     display: grid;
     background: var(--backdrop-2);
+    padding: 60 em;
 }
 
 #contact-section {
