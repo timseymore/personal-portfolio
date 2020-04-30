@@ -124,8 +124,10 @@ a {
     margin: 1rem;
     padding: 5em;
     text-align: center;
+    background-color: var(--backdrop-1);
     border-style: solid;
-    border-color: red;
+    border-color: black;
+    border-radius: 5px;
 }
 
 #project-tile-1 {
