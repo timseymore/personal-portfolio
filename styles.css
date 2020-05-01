@@ -193,4 +193,11 @@ h1 {
         padding-left: 10rem;
         padding-right: 10rem;
     }
+
+    #projects {
+        grid-template-areas: 
+        "tile1 tile2"
+        "tile3 tile4"
+        "tile5 tile6";
+    }
 }
