@@ -155,16 +155,24 @@ a {
 }
 
 #contact-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
     background: var(--backdrop-1);
+    font-size: 2.5rem;
 }
 
 #contact-box {
     display: block;
     padding: 5rem;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:white;
 } 
 
 .logo-link {
     font-weight: bold;
+    text-align: center;
 }
 
 #title-box {
