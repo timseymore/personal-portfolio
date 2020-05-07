@@ -158,6 +158,15 @@ a {
     background: var(--backdrop-1);
 }
 
+#contact-box {
+    display: block;
+    padding: 5rem;
+} 
+
+.logo-link {
+    font-weight: bold;
+}
+
 #title-box {
     display: block;
     width: 100vw;
@@ -198,7 +207,9 @@ h1 {
         height: auto;
         padding: .5rem;
     }
-}
+
+
+
 
 /* 460px / 16px = 28.75em */
 @media (max-width: 45em) {
