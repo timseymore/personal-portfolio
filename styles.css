@@ -168,11 +168,16 @@ a {
     border-style:solid;
     border-radius: 10px;
     border-color:white;
+    margin-left: 40vw;
 } 
 
 .logo-link {
     font-weight: bold;
     text-align: center;
+}
+
+#facebook-logo {
+    
 }
 
 #title-box {
